@@ -33,4 +33,4 @@ const userSchema = mongoose.Schema({
 })
 
 const User = mongoose.model('User',userSchema);
-module.exports={Product}
+module.exports={User}//User모델을 다른곳에서도 쓸 수 있게 export한다.
